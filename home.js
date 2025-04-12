@@ -46,3 +46,14 @@ function typeloop() {
 }
 
 typeloop();
+
+// HOME-SERVICES
+// stop shine effect repitition for each services-card
+
+document.querySelectorAll(".services-card").forEach((card) => {
+  const handleMouseEnter = () => {
+    card.classList.add("shine");
+    card.removeEventListener("mouseenter", handleMouseEnter);
+  };
+  //   card.addEventListener("mouseenter", handleMouseEnter);
+});

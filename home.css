@@ -142,3 +142,97 @@ nav img {
   width: 30%;
   align-self: center;
 }
+
+/* HOME-SERVICES */
+
+#home-services {
+  display: flex;
+  flex-direction: column;
+  background: #1a7efb;
+  color: white;
+  padding: 1rem 6rem;
+  gap: 2rem;
+}
+
+.home-services-heading {
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.services-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-card:hover {
+  transform: translateY(-5px);
+}
+
+.services-card div {
+  color: black;
+  align-self: start;
+}
+
+.services-card h3 {
+  color: #1a7efb;
+  margin: 10px 0 0;
+}
+
+/* shine effect */
+
+/* .services-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(26, 126, 251, 0) 20%,
+    rgba(26, 126, 251, 0.5) 50%,
+    rgba(26, 126, 251, 0) 80%
+  );
+  transform: skewX(-20deg);
+  pointer-events: none;
+  transition: left 0s;
+}
+
+.services-card:hover::before {
+  animation: shine 0.7s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+} */
+
+.home-services-btn {
+  background: white;
+  color: #1a7efb;
+  width: 20%;
+  align-self: center;
+}
+
+.home-services-btn:hover {
+  background: whitesmoke;
+}
