@@ -60,7 +60,7 @@ nav img {
   height: 6rem;
 }
 
-.quote-btn {
+.btn {
   padding: 0.8rem 1rem;
   color: white;
   font-weight: 700;
@@ -69,7 +69,76 @@ nav img {
   transition: 0.3s ease-out;
 }
 
-.quote-btn:hover {
+.btn:hover {
   background: #1f6ca6;
   transform: scale(1.05);
+}
+
+/* HOME-LANDING */
+
+/* cursor blink */
+#typing-text::after {
+  content: "|";
+  animation: blink 0.5s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.row {
+  padding: 1rem 6rem;
+}
+
+.col {
+  display: flex;
+}
+
+.home-heading1 {
+  text-align: center;
+  background: #1a7efb;
+  color: white;
+}
+
+.home-about {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 2rem;
+}
+
+.home-about-img {
+  height: max-content;
+}
+
+.home-about img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-heading2 {
+  width: 100%;
+  height: auto;
+  color: #1a7efb;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-about-intro {
+  flex-direction: column;
+}
+
+.home-about-intro h2 {
+  color: #1a7efb;
+}
+
+.home-about-intro .btn {
+  width: 30%;
+  align-self: center;
 }
