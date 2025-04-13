@@ -67,7 +67,7 @@ const topSlider = new Swiper(".top-slider", {
 
 // bottom Slider: draggable and auto-advances after a certain interval
 const bottomSlider = new Swiper(".bottom-slider", {
-	slidesPerView: 3, // Number of slides visible at once
+	slidesPerView: 4, // Number of slides visible at once
 	spaceBetween: 5, // Space between slides in px
 	loop: true,
 	autoplay: {
