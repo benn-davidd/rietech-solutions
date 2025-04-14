@@ -77,3 +77,17 @@ const bottomSlider = new Swiper(".bottom-slider", {
 	speed: 800, // Transition speed
 	allowTouchMove: true, // Enable manual swiping
 });
+
+// HOME-REVIEWS
+
+const reviewsSlider = new Swiper(".reviews-slider", {
+	slidesPerView: 3,
+	spaceBetween: 5,
+	loop: false,
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
+	speed: 800,
+	allowTouchMove: true,
+});
