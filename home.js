@@ -1,4 +1,5 @@
 // FIRST-HOME
+
 // typing text effect
 
 const phrases = [
