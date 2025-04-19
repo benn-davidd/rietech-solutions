@@ -76,10 +76,10 @@ nav img {
 }
 
 .btn {
-	padding: 0.8rem 1rem;
+	padding: 1rem 1rem;
 	color: white;
 	font-weight: 700;
-	font-size: clamp(12px, 1.7vw, 15px);
+	font-size: clamp(12px, 1.6vw, 16px);
 	background: #1f6ca6;
 	border: none;
 	transition: 0.3s ease-out;
@@ -129,7 +129,7 @@ nav img {
 }
 
 .home-heading1 h1 {
-	font-size: clamp(12px, 1.7vw, 15px);
+	font-size: clamp(12px, 2vw, 16px);
 }
 
 .home-about {
@@ -137,7 +137,7 @@ nav img {
 	flex-wrap: wrap;
 	gap: 30px;
 	margin: 50px 0;
-	font-size: clamp(12px, 1.7vw, 15px);
+	font-size: clamp(12px, 2vw, 16px);
 }
 
 .home-about img {
@@ -178,7 +178,7 @@ nav img {
 	color: white;
 	gap: 1rem;
 	height: fit-content;
-	font-size: clamp(10px, 1.6vw, 15px);
+	font-size: clamp(10px, 1.7vw, 16px);
 }
 
 .home-services-heading {
@@ -218,7 +218,7 @@ nav img {
 
 .services-card h3 {
 	color: #1f6ca6;
-	margin: 10px 0 0;
+	margin: 10px 0;
 }
 
 .home-services-btn {
@@ -236,7 +236,7 @@ nav img {
 .home-services-container {
 	display: flex;
 	flex-direction: column;
-	padding: 2rem 3rem;
+	padding: 2rem 4rem;
 	align-items: center;
 }
 
@@ -249,14 +249,15 @@ nav img {
 
 .home-clients-heading {
 	color: #1f6ca6;
+	font-size: clamp(12px, 2vw, 16px);
 }
 
 /* carousel */
 
 .swiper-container {
 	width: 100%;
-	height: 200px; /* Adjust height as needed */
-	margin-bottom: 30px;
+	height: 200px;
+	margin: 30px 0;
 	overflow: hidden;
 }
 
@@ -281,6 +282,7 @@ nav img {
 
 .home-projects-heading {
 	color: #1f6ca6;
+	font-size: clamp(12px, 2vw, 16px);
 }
 
 /* HOME-REVIEWS */
@@ -292,18 +294,7 @@ nav img {
 
 .home-reviews-heading {
 	color: #1f6ca6;
-}
-
-/* Swiper */
-
-.full-review {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.3s ease;
-}
-
-.review-card.expanded .full-review {
-	max-height: 500px; /* Adjust based on content length */
+	font-size: clamp(12px, 2vw, 16px);
 }
 
 /* FOOTER */
@@ -330,6 +321,8 @@ nav img {
 
 .footer-info p {
 	margin-bottom: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 .footer-info h3,

@@ -21,11 +21,56 @@
 	.home-services-heading {
 		padding: 0 2rem;
 	}
+
 	.home-services-container {
 		padding: 2rem 0;
 	}
+
+	.home-services-btn {
+		width: 160px;
+	}
+
+	/* HOME-CLIENTS */
+	#home-clients {
+		padding: 1rem;
+	}
+
+	.home-clients-btn {
+		width: 160px;
+	}
+
+	/* HOME-PROJECTS */
+	#home-projects {
+		padding: 1rem;
+	}
+
+	/* HOME-REVIEWS */
+	#home-reviews {
+		padding: 1rem;
+	}
+
+	/* FOOTER */
+	.top-footer {
+		padding: 1rem;
+		justify-content: space-between;
+	}
+
+	.footer-socials {
+		font-size: xx-large;
+		gap: 3rem;
+		margin-top: 50px;
+		justify-content: start;
+	}
+
+	.bottom-footer {
+		justify-content: center;
+	}
+
+	.policies {
+		display: none;
+	}
 }
-@media only screen and (max-width: 656px) {
+@media only screen and (max-width: 720px) {
 }
 @media only screen and (max-width: 500px) {
 }
