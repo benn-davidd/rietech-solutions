@@ -63,7 +63,7 @@ section {
 }
 
 .nav-links a:hover {
-	color: midnightblue;
+	color: #14212b;
 }
 
 nav img {
@@ -81,7 +81,7 @@ nav img {
 }
 
 .btn:hover {
-	background: midnightblue;
+	background: #14212b;
 	transform: scale(1.05);
 }
 
@@ -327,7 +327,7 @@ nav img {
 .top-footer {
 	display: flex;
 	justify-content: space-between;
-	background: midnightblue;
+	background: #14212b;
 	color: white;
 	padding: 1.5rem 6rem;
 }
