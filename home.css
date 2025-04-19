@@ -36,7 +36,7 @@ section {
 	color: white;
 }
 
-.header-socials {
+.socials-container {
 	display: flex;
 	gap: 1rem;
 }
@@ -336,9 +336,26 @@ nav img {
 	background: #1f6ca6;
 }
 
+.footer-info {
+	display: inline-block;
+}
+
+.footer-info p {
+	margin-bottom: 10px;
+}
+
+.footer-info h3,
 .footer-links h3 {
 	margin-bottom: 1rem;
 	font-weight: bold;
+}
+
+.footer-socials {
+	display: flex;
+	gap: 2rem;
+	font-size: x-large;
+	margin-top: 30px;
+	justify-content: center;
 }
 
 .footer-links li {
