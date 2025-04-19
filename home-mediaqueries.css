@@ -1,8 +1,31 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1165px) {
+	.row.home-about {
+		padding: 1rem;
+	}
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 950px) {
+	.btn {
+		padding: 0.5rem 0.8rem;
+	}
+	/* HOME-LANDING */
+
+	.home-about img {
+		width: 280px;
+	}
+
+	.home-about-intro .btn {
+		width: 40%;
+	}
+
+	/* HOME-SERVICES */
+	.home-services-heading {
+		padding: 0 2rem;
+	}
+	.home-services-container {
+		padding: 2rem 0;
+	}
 }
-@media only screen and (max-width: 654px) {
+@media only screen and (max-width: 656px) {
 }
 @media only screen and (max-width: 500px) {
 }
