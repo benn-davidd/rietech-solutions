@@ -92,3 +92,10 @@ const reviewsSlider = new Swiper(".reviews-slider", {
 	speed: 800,
 	allowTouchMove: true,
 });
+
+// Copyright
+
+const currentYear = new Date().getFullYear();
+
+document.getElementById("copyright").innerHTML =
+	"Copyright&copy;" + currentYear + ". David Ben-Emu. All Rights Reserved";

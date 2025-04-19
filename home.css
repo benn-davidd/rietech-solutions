@@ -326,14 +326,18 @@ nav img {
 
 .top-footer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background: #14212b;
 	color: white;
 	padding: 1.5rem 6rem;
 }
 
 .bottom-footer {
+	display: flex;
+	justify-content: space-between;
 	background: #1f6ca6;
+	padding: 0.3rem 1rem;
+	color: white;
 }
 
 .footer-info {
@@ -368,6 +372,25 @@ nav img {
 	color: white;
 }
 
-.footer img {
+.footer-links a:hover,
+.footer-socials i:hover {
+	color: #1f6ca6;
+}
+
+/* .footer img {
 	display: none;
+} */
+
+.policies {
+	display: flex;
+	gap: 2rem;
+}
+
+.policies a {
+	text-decoration: none;
+	color: white;
+}
+
+.policies a:hover {
+	color: #14212b;
 }
