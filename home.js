@@ -138,5 +138,17 @@ const reviewsSlider = new Swiper(".reviews-slider", {
 
 const currentYear = new Date().getFullYear();
 
-document.getElementById("copyright").innerHTML =
-	"Copyright&copy;" + currentYear + ". David Ben-Emu. All Rights Reserved";
+const copyright = document.getElementById("copyright");
+
+function updateCopyright() {
+	if (window.matchMedia("(max-width: 501px)").matches) {
+		copyright.innerHTML = "&copy; " + currentYear + ". David Ben-Emu";
+	} else {
+		copyright.innerHTML =
+			"Copyright&copy;" + currentYear + ". David Ben-Emu. All Rights Reserved";
+	}
+}
+
+updateCopyright();
+
+window.addEventListener("resize", updateCopyright);

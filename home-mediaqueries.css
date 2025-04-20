@@ -1,9 +1,10 @@
 @media only screen and (max-width: 1165px) {
+}
+@media only screen and (max-width: 950px) {
 	.row.home-about {
 		padding: 1rem;
 	}
-}
-@media only screen and (max-width: 950px) {
+
 	.btn {
 		padding: 0.5rem 0.8rem;
 	}
@@ -96,6 +97,10 @@
 		padding: 20px 10px;
 	}
 
+	.services-card:hover {
+		transform: none;
+	}
+
 	.services-card div {
 		align-self: center;
 	}
@@ -134,5 +139,20 @@
 		justify-content: start;
 	}
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 501px) {
+	/* HOME-SERVICES */
+
+	.services-grid {
+		grid-template-columns: repeat(2, minmax(auto, 1fr));
+	}
+
+	/* FOOTER */
+
+	.top-footer {
+		justify-content: center;
+	}
+
+	.footer-links {
+		display: none;
+	}
 }
