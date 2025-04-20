@@ -71,6 +71,68 @@
 	}
 }
 @media only screen and (max-width: 720px) {
+	/* HOME-LANDING */
+
+	.row.home-heading1 {
+		padding: 1rem;
+	}
+
+	.home-about {
+		flex-direction: column;
+	}
+
+	.home-about img {
+		align-self: center;
+	}
+
+	/* HOME-SERVICES */
+
+	.services-grid {
+		gap: 0.7rem;
+	}
+
+	.services-card {
+		gap: 0.6rem;
+		padding: 20px 10px;
+	}
+
+	.services-card div {
+		align-self: center;
+	}
+
+	.services-card p {
+		display: none;
+	}
+
+	.services-card h3 {
+		margin: 0;
+	}
+
+	.services-card img {
+		width: 30px;
+		height: 30px;
+	}
+
+	/* FOOTER */
+
+	footer {
+		font-size: small;
+	}
+
+	.footer-info {
+		max-width: 250px;
+	}
+
+	.footer-links {
+		max-width: 170px;
+	}
+
+	.footer-socials {
+		gap: 3rem;
+		font-size: x-large;
+		margin-top: 50px;
+		justify-content: start;
+	}
 }
 @media only screen and (max-width: 500px) {
 }

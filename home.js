@@ -54,27 +54,53 @@ typeloop();
 
 // top Slider: continuous autoplay, pauses on hover
 const topSlider = new Swiper(".top-slider", {
-	slidesPerView: 3, // Number of slides visible at once
-	spaceBetween: 1, // Space between slides in px
+	slidesPerView: 1, // Number of slides visible at once
+	spaceBetween: 2, // Space between slides in px
 	loop: true,
 	autoplay: {
 		delay: 0, // Continuous autoplay
 		disableOnInteraction: false,
 		pauseOnMouseEnter: true, // Pauses on hover
 	},
+
+	breakpoints: {
+		720: {
+			slidesPerView: 2,
+		},
+
+		950: {
+			slidesPerView: 3,
+		},
+	},
+
 	speed: 3000, // Adjust speed for continuous effect
 	allowTouchMove: false, // Disable manual swiping
 });
 
 // bottom Slider: draggable and auto-advances after a certain interval
 const bottomSlider = new Swiper(".bottom-slider", {
-	slidesPerView: 4, // Number of slides visible at once
+	slidesPerView: 1, // Number of slides visible at once
 	spaceBetween: 5, // Space between slides in px
 	loop: true,
 	autoplay: {
 		delay: 5000, // Advances every 5 seconds
 		disableOnInteraction: false, // Continues autoplay after interaction
 	},
+
+	breakpoints: {
+		430: {
+			slidesPerView: 2,
+		},
+
+		720: {
+			slidesPerView: 3,
+		},
+
+		950: {
+			slidesPerView: 4,
+		},
+	},
+
 	speed: 800, // Transition speed
 	allowTouchMove: true, // Enable manual swiping
 });
@@ -82,13 +108,28 @@ const bottomSlider = new Swiper(".bottom-slider", {
 // HOME-REVIEWS
 
 const reviewsSlider = new Swiper(".reviews-slider", {
-	slidesPerView: 3,
+	slidesPerView: 1,
 	spaceBetween: 5,
 	loop: false,
 	autoplay: {
 		delay: 5000,
 		disableOnInteraction: false,
 	},
+
+	breakpoints: {
+		430: {
+			slidesPerView: 2,
+		},
+
+		720: {
+			slidesPerView: 3,
+		},
+
+		950: {
+			slidesPerView: 4,
+		},
+	},
+
 	speed: 800,
 	allowTouchMove: true,
 });
