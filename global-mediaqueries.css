@@ -10,10 +10,10 @@
 	right: -50%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
-	text-align: center;
-	font-size: 3rem;
+	text-align: start;
+	font-size: 1.5rem;
 	box-shadow: 0 2px 4px grey;
 	transition: 0.3s ease;
 	z-index: 9;
@@ -72,6 +72,28 @@
 	z-index: 8;
 }
 
+/* OFF-SCREEN-MENU DESIGN */
+
+.menu-links {
+	list-style: none;
+	width: 100%;
+	margin: 30% 0;
+}
+
+.menu-links li {
+	padding: 1.5rem;
+}
+
+.menu-links li:hover {
+	background-color: #14212b;
+}
+
+.menu-links a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
 /* MEDIAQUERIES */
 
 @media only screen and (min-width: 1165px) {
@@ -95,6 +117,10 @@
 
 	.ham-menu {
 		display: flex;
+	}
+
+	.socials-container {
+		display: none;
 	}
 
 	/* FOOTER */

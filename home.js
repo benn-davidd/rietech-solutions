@@ -155,18 +155,29 @@ window.addEventListener("resize", updateCopyright);
 
 // Hamburger Menu
 
-const hamMenu = document.querySelector(".ham-menu");
-const offScreenMenu = document.querySelector(".off-screen-menu");
-const menuOverlay = document.getElementById("menuOverlay");
+document.addEventListener("DOMContentLoaded", () => {
+	const hamMenu = document.querySelector(".ham-menu");
+	const offScreenMenu = document.querySelector(".off-screen-menu");
+	const menuOverlay = document.getElementById("menuOverlay");
+	const menuLinks = document.querySelectorAll(".menu-item");
 
-hamMenu.addEventListener("click", () => {
-	hamMenu.classList.toggle("active");
-	offScreenMenu.classList.toggle("active");
-	menuOverlay.classList.toggle("active");
-});
+	hamMenu.addEventListener("click", () => {
+		hamMenu.classList.toggle("active");
+		offScreenMenu.classList.toggle("active");
+		menuOverlay.classList.toggle("active");
+	});
 
-menuOverlay.addEventListener("click", () => {
-	hamMenu.classList.remove("active");
-	offScreenMenu.classList.remove("active");
-	menuOverlay.classList.remove("active");
+	function closeMenu() {
+		hamMenu.classList.remove("active");
+		offScreenMenu.classList.remove("active");
+		menuOverlay.classList.remove("active");
+	}
+
+	// remove menu when the overlay is clicked
+	menuOverlay.addEventListener("click", closeMenu);
+
+	// remove menu when any menu-link is clicked
+	menuLinks.forEach((link) => {
+		link.addEventListener("click", closeMenu);
+	});
 });
