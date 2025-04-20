@@ -294,6 +294,18 @@ nav img {
 	}
 }
 @media only screen and (max-width: 720px) {
+	.off-screen-menu {
+		font-size: 1.2rem;
+	}
+
+	.menu-links {
+		margin: 40%;
+	}
+
+	.menu-links li {
+		padding: 1.2rem 1.5rem;
+	}
+
 	/* FOOTER */
 
 	footer {
@@ -316,6 +328,17 @@ nav img {
 	}
 }
 @media only screen and (max-width: 501px) {
+	.off-screen-menu {
+		font-size: 1rem;
+	}
+
+	.menu-links {
+		margin: 60%;
+	}
+
+	.menu-links li {
+		padding: 1.2rem 1.5rem;
+	}
 	/* FOOTER */
 
 	.top-footer {
