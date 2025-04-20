@@ -74,13 +74,13 @@ const topSlider = new Swiper(".top-slider", {
 	},
 
 	speed: 3000, // Adjust speed for continuous effect
-	allowTouchMove: false, // Disable manual swiping
+	allowTouchMove: false, // Manual swiping
 });
 
 // bottom Slider: draggable and auto-advances after a certain interval
 const bottomSlider = new Swiper(".bottom-slider", {
-	slidesPerView: 1, // Number of slides visible at once
-	spaceBetween: 5, // Space between slides in px
+	slidesPerView: 1,
+	spaceBetween: 5,
 	loop: true,
 	autoplay: {
 		delay: 5000, // Advances every 5 seconds
@@ -152,3 +152,21 @@ function updateCopyright() {
 updateCopyright();
 
 window.addEventListener("resize", updateCopyright);
+
+// Hamburger Menu
+
+const hamMenu = document.querySelector(".ham-menu");
+const offScreenMenu = document.querySelector(".off-screen-menu");
+const menuOverlay = document.getElementById("menuOverlay");
+
+hamMenu.addEventListener("click", () => {
+	hamMenu.classList.toggle("active");
+	offScreenMenu.classList.toggle("active");
+	menuOverlay.classList.toggle("active");
+});
+
+menuOverlay.addEventListener("click", () => {
+	hamMenu.classList.remove("active");
+	offScreenMenu.classList.remove("active");
+	menuOverlay.classList.remove("active");
+});

@@ -20,7 +20,7 @@ section {
 /* HEADER */
 
 #home .container {
-	background: #1f6ca6;
+	background: #1a5c8e;
 	display: flex;
 	color: white;
 	font-size: 1rem;
@@ -63,7 +63,7 @@ section {
 
 .nav-links a {
 	text-decoration: none;
-	color: #1f6ca6;
+	color: #1a5c8e;
 	font-weight: 500;
 }
 
@@ -80,7 +80,7 @@ nav img {
 	color: white;
 	font-weight: 700;
 	font-size: clamp(12px, 1.6vw, 16px);
-	background: #1f6ca6;
+	background: #1a5c8e;
 	border: none;
 	transition: 0.3s ease-out;
 	max-width: 200px;
@@ -90,8 +90,6 @@ nav img {
 	background: #14212b;
 	transform: scale(1.05);
 }
-
-/* HAMBURGER NAV */
 
 /* HOME-LANDING */
 
@@ -126,7 +124,7 @@ nav img {
 
 .home-heading1 {
 	text-align: center;
-	background: #1f6ca6;
+	background: #1a5c8e;
 	color: white;
 }
 
@@ -154,7 +152,7 @@ nav img {
 .home-heading2 {
 	width: 100%;
 	height: auto;
-	color: #1f6ca6;
+	color: #1a5c8e;
 	margin: 20px 0;
 }
 
@@ -164,7 +162,7 @@ nav img {
 }
 
 .home-about-intro h2 {
-	color: #1f6ca6;
+	color: #1a5c8e;
 	margin-bottom: 20px;
 }
 
@@ -176,7 +174,7 @@ nav img {
 /* HOME-SERVICES */
 
 #home-services {
-	background: #1f6ca6;
+	background: #1a5c8e;
 	color: white;
 	gap: 1rem;
 	height: fit-content;
@@ -218,13 +216,13 @@ nav img {
 }
 
 .services-card h3 {
-	color: #1f6ca6;
+	color: #1a5c8e;
 	margin: 10px 0;
 }
 
 .home-services-btn {
 	background: white;
-	color: #1f6ca6;
+	color: #1a5c8e;
 	width: 200px;
 	margin-top: 20px;
 }
@@ -249,7 +247,7 @@ nav img {
 }
 
 .home-clients-heading {
-	color: #1f6ca6;
+	color: #1a5c8e;
 	font-size: clamp(12px, 2vw, 16px);
 }
 
@@ -282,7 +280,7 @@ nav img {
 }
 
 .home-projects-heading {
-	color: #1f6ca6;
+	color: #1a5c8e;
 	font-size: clamp(12px, 2vw, 16px);
 }
 
@@ -294,7 +292,7 @@ nav img {
 }
 
 .home-reviews-heading {
-	color: #1f6ca6;
+	color: #1a5c8e;
 	font-size: clamp(12px, 2vw, 16px);
 }
 
@@ -311,7 +309,7 @@ nav img {
 .bottom-footer {
 	display: flex;
 	justify-content: space-between;
-	background: #1f6ca6;
+	background: #1a5c8e;
 	padding: 0.3rem 1rem;
 	color: white;
 }
@@ -352,7 +350,7 @@ nav img {
 
 .footer-links a:hover,
 .footer-socials i:hover {
-	color: #1f6ca6;
+	color: #1a5c8e;
 }
 
 /* .footer img {

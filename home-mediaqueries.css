@@ -8,6 +8,7 @@
 	.btn {
 		padding: 1rem 0.8rem;
 	}
+
 	/* HOME-LANDING */
 
 	.home-about img {
@@ -48,27 +49,6 @@
 	/* HOME-REVIEWS */
 	#home-reviews {
 		padding: 1rem;
-	}
-
-	/* FOOTER */
-	.top-footer {
-		padding: 1rem;
-		justify-content: space-between;
-	}
-
-	.footer-socials {
-		font-size: xx-large;
-		gap: 3rem;
-		margin-top: 50px;
-		justify-content: start;
-	}
-
-	.bottom-footer {
-		justify-content: center;
-	}
-
-	.policies {
-		display: none;
 	}
 }
 @media only screen and (max-width: 720px) {
@@ -117,42 +97,11 @@
 		width: 30px;
 		height: 30px;
 	}
-
-	/* FOOTER */
-
-	footer {
-		font-size: small;
-	}
-
-	.footer-info {
-		max-width: 250px;
-	}
-
-	.footer-links {
-		max-width: 170px;
-	}
-
-	.footer-socials {
-		gap: 3rem;
-		font-size: x-large;
-		margin-top: 50px;
-		justify-content: start;
-	}
 }
 @media only screen and (max-width: 501px) {
 	/* HOME-SERVICES */
 
 	.services-grid {
 		grid-template-columns: repeat(2, minmax(auto, 1fr));
-	}
-
-	/* FOOTER */
-
-	.top-footer {
-		justify-content: center;
-	}
-
-	.footer-links {
-		display: none;
 	}
 }
