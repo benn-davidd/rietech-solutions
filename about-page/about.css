@@ -106,6 +106,7 @@
 	display: flex;
 	gap: 1rem;
 	align-items: center;
+	font-size: clamp(12px, 1.5vw, 15px);
 	font-family: "Montserrat", sans-serif;
 	background-color: white;
 	padding: 20px 10px;
@@ -119,7 +120,7 @@
 	transform: translateY(-5px);
 }
 
-.vm-card h3 {
+.vm-card h2 {
 	color: #1a5c8e;
 	margin-bottom: 10px;
 }
