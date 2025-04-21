@@ -1,4 +1,4 @@
-// FIRST-HOME
+// HOME-LANDING
 
 // typing text effect
 
