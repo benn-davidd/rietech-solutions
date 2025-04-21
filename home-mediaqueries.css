@@ -29,7 +29,11 @@
 	}
 
 	.home-services-btn {
-		width: 160px;
+		width: 180px;
+	}
+
+	.services-grid {
+		grid-template-columns: repeat(2, minmax(auto, 400px));
 	}
 
 	/* HOME-CLIENTS */
@@ -38,7 +42,7 @@
 	}
 
 	.home-clients-btn {
-		width: 160px;
+		width: 180px;
 	}
 
 	/* HOME-PROJECTS */
@@ -70,6 +74,7 @@
 
 	.services-grid {
 		gap: 0.7rem;
+		grid-template-columns: repeat(2, minmax(auto, 400px));
 	}
 
 	.services-card {
@@ -85,10 +90,6 @@
 		align-self: center;
 	}
 
-	.services-card p {
-		display: none;
-	}
-
 	.services-card h3 {
 		margin: 0;
 	}
@@ -97,11 +98,21 @@
 		width: 30px;
 		height: 30px;
 	}
+
+	.home-services-btn {
+		width: 160px;
+	}
+
+	/* HOME-CLIENTS */
+
+	.home-clients-btn {
+		width: 160px;
+	}
 }
 @media only screen and (max-width: 501px) {
 	/* HOME-SERVICES */
 
 	.services-grid {
-		grid-template-columns: repeat(2, minmax(auto, 1fr));
+		grid-template-columns: repeat(1, minmax(auto, 400px));
 	}
 }
