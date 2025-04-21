@@ -91,7 +91,7 @@
 /* VISION-MISSION */
 
 #vision-mission {
-	padding: 1rem 6rem;
+	padding: 2rem 6rem;
 	background-color: #1a5c8e;
 }
 
@@ -122,4 +122,41 @@
 .vm-card h3 {
 	color: #1a5c8e;
 	margin-bottom: 10px;
+}
+
+/* ABOUT-VALUES */
+
+#about-values {
+	padding: 1rem 10rem;
+}
+
+.about-values {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin: 50px 0;
+	font-size: clamp(12px, 2vw, 16px);
+}
+
+.about-values img {
+	display: inline-block;
+	max-width: 100%;
+	width: 400px;
+	height: min-content;
+	border-radius: 15px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-values-text {
+	flex: 1;
+	flex-direction: column;
+}
+
+.about-values-text h2 {
+	color: #1a5c8e;
+	margin-bottom: 20px;
+}
+
+.about-values-text span {
+	font-weight: bold;
 }
