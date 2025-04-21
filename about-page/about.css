@@ -97,13 +97,29 @@
 
 .vm-card-container {
 	display: grid;
-	grid-template-columns: repeat(2, minmax(auto, 30%));
-	gap: 3rem;
+	grid-template-columns: repeat(2, minmax(auto, 40%));
+	gap: 1rem;
 	justify-content: center;
 }
 
 .vm-card {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
 	background-color: white;
-	border-radius: 20px;
-	height: 150px;
+	padding: 20px 10px;
+	border-radius: 10px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+	transition: 0.3s ease;
+	overflow: hidden;
+}
+
+.vm-card:hover {
+	transform: translateY(-5px);
+}
+
+.vm-card h3 {
+	color: #1a5c8e;
+	margin-bottom: 10px;
 }
