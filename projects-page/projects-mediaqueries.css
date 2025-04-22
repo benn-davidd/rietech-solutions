@@ -1,29 +1,29 @@
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 950px) {
-	/* SERVICES-LANDING */
-	.services-heading {
+	/* PROJECTS-LANDING */
+	.projects-heading {
 		padding: 0 4rem;
 	}
 }
 @media only screen and (max-width: 720px) {
-	/* SERVICES-LANDING */
-	#services-landing {
+	/* PROJECTS-LANDING */
+	#projects-landing {
 		height: 30vh;
 	}
 
-	.services-heading {
+	.projects-heading {
 		padding: 1rem;
 	}
 }
 @media only screen and (max-width: 501px) {
-	/* SERVICES-LANDING */
+	/* PROJECTS-LANDING */
 
-	#services-landing {
+	#projects-landing {
 		align-items: end;
 	}
 
-	.services-heading {
+	.projects-heading {
 		padding: 1rem;
 		margin-bottom: 2rem;
 	}

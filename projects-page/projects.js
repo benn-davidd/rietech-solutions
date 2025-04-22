@@ -1,7 +1,7 @@
 // Animations
 // Scroll Reveal
 
-ScrollReveal().reveal(".services-heading h1", {
+ScrollReveal().reveal(".projects-heading h1", {
 	origin: "top",
 	distance: "60px",
 	duration: 1000,
@@ -9,7 +9,7 @@ ScrollReveal().reveal(".services-heading h1", {
 	opacity: 0,
 });
 
-ScrollReveal().reveal(".services-heading h2", {
+ScrollReveal().reveal(".projects-heading h2", {
 	origin: "bottom",
 	distance: "60px",
 	duration: 1000,

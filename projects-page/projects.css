@@ -1,6 +1,6 @@
-/* SERVICES-LANDING */
+/* projects-LANDING */
 
-#services-landing {
+#projects-landing {
 	position: relative;
 	height: 50vh;
 	width: 100%;
@@ -20,7 +20,7 @@
 	z-index: 0;
 }
 
-.services-heading {
+.projects-heading {
 	position: relative;
 	display: flex;
 	align-items: start;
@@ -29,28 +29,28 @@
 	z-index: 1;
 }
 
-.services-heading h1 {
+.projects-heading h1 {
 	color: #1a5c8e;
 	font-weight: 400;
 	font-size: clamp(35px, 5vw, 80px);
 }
 
-.services-heading h2 {
+.projects-heading h2 {
 	color: white;
 	font-size: clamp(15px, 2.2vw, 30px);
 	font-weight: 400;
 	text-align: center;
 }
 
-.services-heading a {
+.projects-heading a {
 	text-decoration: none;
 	color: white;
 }
 
-.services-heading a:hover {
+.projects-heading a:hover {
 	color: #1a5c8e;
 }
 
-.services-heading span {
+.projects-heading span {
 	font-size: clamp(25px, 3.2vw, 40px);
 }
