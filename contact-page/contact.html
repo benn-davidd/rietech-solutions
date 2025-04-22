@@ -25,8 +25,8 @@
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
 		<link rel="stylesheet" href="../global.css" />
-		<link rel="stylesheet" href="about.css" />
-		<link rel="stylesheet" href="about-mediaqueries.css" />
+		<link rel="stylesheet" href="contact.css" />
+		<link rel="stylesheet" href="contact-mediaqueries.css" />
 	</head>
 	<body>
 		<header id="header">
@@ -52,10 +52,10 @@
 				<div class="nav-links">
 					<ul>
 						<li><a href="../index.html">Home</a></li>
-						<li><a href="#header">About Us</a></li>
+						<li><a href="../about-page/about.html">About Us</a></li>
 						<li><a href="../services-page/services.html">Our Services</a></li>
 						<li><a href="../projects-page/projects.html">Projects</a></li>
-						<li><a href="../contact-page/contact.html">Contact Us</a></li>
+						<li><a href="#header">Contact Us</a></li>
 						<li><a href="../blog-page/blog.html">Blog</a></li>
 					</ul>
 				</div>
@@ -77,122 +77,93 @@
 			<div class="off-screen-menu">
 				<ul class="menu-links">
 					<li class="menu-item"><a href="../index.html">Home</a></li>
-					<li class="menu-item"><a href="#header">About Us</a></li>
+					<li class="menu-item">
+						<a href="../about-page/about.html">About Us</a>
+					</li>
 					<li class="menu-item">
 						<a href="../services-page/services.html">Our Services</a>
 					</li>
 					<li class="menu-item">
 						<a href="../projects-page/projects.html">Projects</a>
 					</li>
-					<li class="menu-item">
-						<a href="../contact-page/contact.html">Contact Us</a>
-					</li>
+					<li class="menu-item"><a href="#header">Contact Us</a></li>
 					<li class="menu-item"><a href="../blog-page/blog.html">Blog</a></li>
 				</ul>
 			</div>
 			<div class="overlay" id="menuOverlay"></div>
 		</header>
-		<section id="about-landing">
+		<section id="contact-landing">
 			<img src="../images/about-us.jpg" alt="Background" class="landing-img" />
-			<div class="about-heading">
-				<h1>About Us</h1>
-				<h2><a href="../index.html">Home </a><span> | </span> About Us</h2>
+			<div class="contact-heading">
+				<h1>Get In Touch</h1>
+				<h2><a href="../index.html">Home </a><span> | </span> Contact Us</h2>
 			</div>
 		</section>
-		<section id="about-info">
-			<div class="about-info">
-				<div class="about-info-text">
-					<h2 class="montserrat">Who Are We?</h2>
-					<p>
-						Welcome to Rietech Digital Consulting, where innovation meets design
-						and strategy aligns with technology. Our commitment is to elevate
-						your digital presence and enhance your brand's reach through our
-						comprehensive suite of services. From the intricacies of website
-						design and development to the creative aspects of graphics design;
-						from the dynamic world of digital marketing to the
-						community-building power of social media management; and from the
-						compelling storytelling through video creation, we are your partners
-						in navigating the digital landscape. Our team of experts is
-						dedicated to crafting bespoke solutions that resonate with your
-						audience and drive meaningful engagement.
-					</p>
+		<section id="contact-form">
+			<div class="form-container">
+				<div class="form-header">
+					<h2>Send Us a Message</h2>
 				</div>
-				<img src="../images/blur-img.jpg" />
-			</div>
-		</section>
-		<section id="vision-mission">
-			<div class="vm-card-container">
-				<div class="vision-card vm-card">
-					<img
-						width="50"
-						height="50"
-						src="https://img.icons8.com/external-dreamcreateicons-detailed-outline-dreamcreateicons/50/external-line1px_vision-ui-dreamcreateicons-detailed-outline-dreamcreateicons.png"
-						alt="external-line1px_vision-ui-dreamcreateicons-detailed-outline-dreamcreateicons"
-					/>
-					<div class="vm-card-text">
-						<h2>Our Vision</h2>
-						<p>
-							To be a trusted partner and a leader in the digital consulting
-							industry, known for our creativity, expertise, and commitment to
-							delivering exceptional results.
-						</p>
+				<form class="form">
+					<div class="form-group">
+						<div class="input-group">
+							<input
+								type="text"
+								name="fullname"
+								placeholder="Your Name*"
+								class="form-control montserrat"
+								required
+							/>
+						</div>
+						<div class="input-group">
+							<input
+								type="email"
+								name="email"
+								placeholder="Your Email*"
+								class="form-control montserrat"
+								required
+							/>
+						</div>
 					</div>
-				</div>
-				<div class="mission-card vm-card">
-					<img
-						width="50"
-						height="50"
-						src="https://img.icons8.com/ios/50/goal--v1.png"
-						alt="goal--v1"
-					/>
-					<div class="vm-card-text">
-						<h2>Our Mission</h2>
-						<p>
-							To empower businesses and individuals to succeed in the digital
-							age by providing innovative and effective digital solutions
-							tailored to their specific needs.
-						</p>
+					<div class="input-group">
+						<input
+							type="text"
+							name="subject"
+							placeholder="Subject (Optional)"
+							class="form-control montserrat"
+						/>
 					</div>
-				</div>
+					<div class="input-group">
+						<textarea
+							name="message"
+							rows="5"
+							placeholder="Your Message*"
+							class="form-control montserrat"
+							required
+						></textarea>
+					</div>
+				</form>
+				<button type="submit" class="btn btn2 montserrat">
+					<i class="fa-solid fa-paper-plane"></i> Submit
+				</button>
 			</div>
 		</section>
-		<section id="about-values">
-			<div class="about-values">
-				<img src="../images/blur-img.jpg" />
-				<div class="about-values-text">
-					<h2 class="montserrat">Our Core Values</h2>
-					<ol>
-						<li>
-							<span>Innovation:</span> We constantly seek new ideas and
-							technologies to stay ahead of the curve and provide cutting-edge
-							solutions to our clients.
-						</li>
-						<li>
-							<span>Integrity:</span> We conduct business with honesty,
-							transparency, and respect for our clients, partners, and
-							employees.
-						</li>
-						<li>
-							<span>Excellence:</span> We strive for excellence in everything we
-							do, delivering high-quality work and exceptional service to our
-							clients.
-						</li>
-						<li>
-							<span>Collaboration:</span> We believe in the power of
-							collaboration and work closely with our clients and partners to
-							achieve shared goals.
-						</li>
-						<li>
-							<span>Continuous Improvement:</span> We are committed to
-							continuous learning and improvement, always looking for ways to
-							enhance our skills and services.
-						</li>
-						<li>
-							<span> Customer Focus:</span> We are dedicated to understanding
-							and meeting the needs of our customers, ensuring their success is
-							our top priority.
-						</li>
-					</ol>
+		<section id="contact-map">
+			<div class="map-body"></div>
+		</section>
+		<section id="contact-info">
+			<div class="contact-card-container">
+				<div class="contact-card">
+					<i class="fa-solid fa-map-location-dot"></i>
+					<h3>42, Nnobi Street, Surulere, Lagos</h3>
+				</div>
+				<div class="contact-card">
+					<i class="fa-solid fa-phone"></i>
+					<h3>+234 7025344015</h3>
+				</div>
+				<div class="contact-card">
+					<i class="fa-solid fa-globe"></i>
+					<h3>www.rietechsolutions.com <br />info@rietechsolutions.com</h3>
 				</div>
 			</div>
 		</section>
@@ -239,6 +210,5 @@
 			</div>
 		</footer>
 	</body>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-	<script src="about.js"></script>
+	<script src="contact.js"></script>
 </html>
