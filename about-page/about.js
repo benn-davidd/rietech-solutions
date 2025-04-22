@@ -1,4 +1,39 @@
 // Animations
+// Scroll Reveal
+
+ScrollReveal().reveal(".vision-card", {
+	origin: "left",
+	distance: "100px",
+	duration: 1000,
+	easing: "ease-in-out",
+	reset: false,
+	opacity: 0,
+});
+
+ScrollReveal().reveal(".mission-card", {
+	origin: "right",
+	distance: "100px",
+	duration: 1000,
+	easing: "ease-in-out",
+	reset: false,
+	opacity: 0,
+});
+
+ScrollReveal().reveal(".about-heading h1", {
+	origin: "top",
+	distance: "60px",
+	duration: 1000,
+	delay: 200,
+	opacity: 0,
+});
+
+ScrollReveal().reveal(".about-heading h2", {
+	origin: "bottom",
+	distance: "60px",
+	duration: 1000,
+	delay: 200,
+	opacity: 0,
+});
 
 // Copyright
 

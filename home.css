@@ -106,7 +106,7 @@ section {
 	grid-template-columns: repeat(3, minmax(auto, 1fr));
 	/* grid-template-rows: repeat(auto, 1fr); */
 	gap: 1rem;
-	padding: 1rem 0.5rem;
+	padding: 1rem;
 }
 
 .services-card {

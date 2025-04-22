@@ -1,3 +1,15 @@
+// Animations
+// Scroll Reveal
+
+ScrollReveal().reveal(".services-card", {
+	origin: "bottom",
+	distance: "100px",
+	duration: 1000,
+	easing: "ease-in-out",
+	reset: false,
+	opacity: 0,
+});
+
 // HOME-LANDING
 
 // typing text effect
