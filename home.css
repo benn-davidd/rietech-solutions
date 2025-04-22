@@ -82,7 +82,7 @@ section {
 	margin-bottom: 20px;
 }
 
-.home-about-intro .btn {
+.home-about-btn {
 	width: 30%;
 	align-self: center;
 }
@@ -184,10 +184,6 @@ section {
 	font-size: 20px;
 }
 
-.home-clients-btn {
-	width: 200px;
-}
-
 /* HOME-PROJECTS */
 
 #home-projects {
@@ -198,6 +194,11 @@ section {
 .home-projects-heading {
 	color: #1a5c8e;
 	font-size: clamp(12px, 2vw, 16px);
+}
+
+.home-projects-btn {
+	width: 230px;
+	margin-top: 1rem;
 }
 
 /* HOME-REVIEWS */

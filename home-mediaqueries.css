@@ -18,7 +18,7 @@
 		width: 280px;
 	}
 
-	.home-about-intro .btn {
+	.home-about-btn {
 		width: 40%;
 	}
 
@@ -44,13 +44,13 @@
 		padding: 1rem;
 	}
 
-	.home-clients-btn {
-		width: 180px;
-	}
-
 	/* HOME-PROJECTS */
 	#home-projects {
 		padding: 1rem;
+	}
+
+	.home-projects-btn {
+		width: 190px;
 	}
 
 	/* HOME-REVIEWS */
@@ -71,6 +71,10 @@
 
 	.home-about img {
 		align-self: center;
+	}
+
+	.home-about-btn {
+		width: 30%;
 	}
 
 	/* HOME-SERVICES */
@@ -106,13 +110,19 @@
 		width: 160px;
 	}
 
-	/* HOME-CLIENTS */
+	/* HOME-PROJECTS */
 
-	.home-clients-btn {
-		width: 160px;
+	.home-projects-btn {
+		width: 180px;
 	}
 }
 @media only screen and (max-width: 501px) {
+	/* HOME-LANDING */
+
+	.home-about-btn {
+		width: 40%;
+	}
+
 	/* HOME-SERVICES */
 
 	.services-grid {
