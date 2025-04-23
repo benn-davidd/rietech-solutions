@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1200px) {
+	/* CONTACT-FORM */
+
+	#contact-form {
+		margin: 0 8rem;
+	}
 }
 @media only screen and (max-width: 950px) {
 	/* CONTACT-LANDING */
@@ -6,6 +11,27 @@
 	.contact-heading {
 		padding: 0 4rem;
 	}
+
+	/* CONTACT-FORM */
+
+	#contact-form {
+		margin: 0 2rem;
+	}
+
+	/* CONTACT-INFO */
+
+	#contact-info {
+		height: fit-content;
+		padding: 3rem 5rem;
+	}
+
+	.contact-card-container {
+		grid-template-columns: repeat(1, minmax(auto, 1fr));
+	}
+
+	/* .contact-card {
+		flex-direction: row;
+	} */
 }
 @media only screen and (max-width: 720px) {
 	/* CONTACT-LANDING */
@@ -16,6 +42,17 @@
 
 	.contact-heading {
 		padding: 1rem;
+	}
+
+	/* CONTACT-FORM */
+
+	#contact-form {
+		margin: 0;
+	}
+
+	.form-group {
+		flex-direction: column;
+		gap: 0;
 	}
 }
 @media only screen and (max-width: 501px) {
@@ -28,5 +65,15 @@
 	.contact-heading {
 		padding: 1rem;
 		margin-bottom: 2rem;
+	}
+
+	/* CONTACT-FORM */
+
+	#contact-form {
+		padding: 2rem 1rem;
+	}
+
+	.btn2 {
+		width: 45%;
 	}
 }
